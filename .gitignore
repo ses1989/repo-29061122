@@ -1,0 +1,80 @@
+# may contain OAuth secrets, do not commit
+.sitecore/user.json
+
+# NuGet cache for Sitecore CLI
+.sitecore/package-cache/
+
+# Ephemeral index caches used by serialization, do not commit
+.scindex
+
+# Don't commit packages
+*.itempackage
+*.sicpackage
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
+
+# temporary workaround
+/docker/data/cm/*
+!/docker/data/cm/.gitkeep
+/docker/data/cd/*
+!/docker/data/cd/.gitkeep
+/docker/data/sql/*
+!/docker/data/sql/.gitkeep
+/docker/data/solr/*
+!/docker/data/solr/.gitkeep
+/docker/deploy/platform/*
+!/docker/deploy/platform/.gitkeep
+/docker/traefik/certs/*.pem
+/src/Project/BasicCompany/nextjs/node_modules
+/src/Project/BasicCompany/nextjs/coverage
+/src/Project/BasicCompany/nextjs/.next*/
+/src/Project/BasicCompany/nextjs/out/
+/src/Project/BasicCompany/nextjs/.generated
+/src/Project/BasicCompany/nextjs/*.graphql.d.ts
+/src/Project/BasicCompany/nextjs/*.graphqls.d.ts
+/src/Project/BasicCompany/nextjs/.DS_Store
+/src/Project/BasicCompany/nextjs/.env.local
+/src/Project/BasicCompany/nextjs/.env.*.local
+/src/Project/BasicCompany/nextjs/*.log*
+/src/Project/BasicCompany/nextjs/.vercel
+/src/Project/BasicCompany/nextjs/**/*.graphql.d.ts
+/src/Project/BasicCompany/nextjs/**/*.graphqls.d.ts
+/src/Project/BasicCompany/nextjs/**/.DS_Store
+/src/Project/BasicCompany/nextjs/**/.env.local
+/src/Project/BasicCompany/nextjs/**/.env.*.local
+/src/Project/BasicCompany/nextjs/**/*.log*
+/src/Project/BasicCompany/nextjs/.vercel
+/src/Project/BasicCompany/nextjs/src/temp/*
+/src/Project/BasicCompany/nextjs/src/temp/!.gitignore
+/src/Project/BasicCompany/nextjs/src/temp/!GraphQLFragmentTypes.json
+/src/Project/BasicCompany/nextjs/src/temp/!GraphQLIntrospectionResult.json
